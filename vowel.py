@@ -11,7 +11,7 @@ def vowel(filename):
 		print list
 		x.close()
 	except:
-		print "file you entered doesn't exists"
+		print "file you entered doesn't exists in the same Directory/folder"
 def main():
 	vowel(sys.argv[1])
 if __name__=='__main__':
